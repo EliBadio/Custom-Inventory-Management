@@ -1,0 +1,40 @@
+{
+  "name": "customizableinventorydatabasesystem",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "npm run lint",
+    "start": "node server.js",
+    "lint": "eslint --quiet .",
+    "fix": "eslint --fix .",
+    "watch": "nodemon server.js",
+    "dev": "npx nodemon server/server.js -w server"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chart.js": "^2.9.4",
+    "express": "^4.17.1",
+    "express-generator": "^4.16.1",
+    "express-handlebars": "^5.2.0",
+    "express-session": "^1.16.1",
+    "inquirer": "^7.3.3",
+    "mysql": "^2.18.1",
+    "mysql2": "^1.7.0",
+    "sequelize": "^5.22.3",
+    "sequelize-cli": "^6.2.0"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "chai-http": "^4.0.0",
+    "cross-env": "^5.2.0",
+    "eslint": "^4.19.1",
+    "eslint-config-prettier": "^2.9.0",
+    "eslint-plugin-prettier": "^2.6.2",
+    "mocha": "^5.2.0",
+    "nodemon": "^2.0.6",
+    "prettier": "^1.13.7"
+  }
+}
